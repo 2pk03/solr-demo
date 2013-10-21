@@ -4,10 +4,10 @@
 # adapted to be fully scripted
 # long instead of int for faceted salary search
 
-HOSTNAME=hadoop1
-USER=alexander
+HOSTNAME=
+USER=
 
-  export PROJECT_HOME=/home/alexander/solrpdf-demo
+  export PROJECT_HOME=/home/$USER/solrpdf-demo
 rm -rf $PROJECT_HOME
 mkdir $PROJECT_HOME
   export SOLR_HOME=/opt/cloudera/parcels/SOLR-0.9.3-1.cdh4.3.0.p0.366/lib/solr
